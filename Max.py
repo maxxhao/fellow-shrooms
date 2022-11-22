@@ -7,6 +7,7 @@ def test_function():
 if __name__ == "__main__":
   a = 3
   b = 3
+  c = 1000
   x = test_functional(a, b)
   
-  print(x)
+  print(x, c)
