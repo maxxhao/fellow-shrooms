@@ -1,7 +1,7 @@
 import numpy as np
 
-def test_function():
-  x = np.random.randn(3,3)
+def test_function(a, b):
+  x = np.random.randn(a, b)
   return x
   
 if __name__ == "__main__":
